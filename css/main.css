@@ -43,7 +43,6 @@ h3 {
 p {
 	font-size: .875em;
 	line-height: 1.3em;
-    padding: 0 1.875em;
 }
 
 /*The widths are in a percentage!*/
@@ -171,7 +170,6 @@ header nav ul li a{
 .address {
 	font-size: 1em;
 	line-height: 1.2em;
-	padding: 0.6em 0em;
 	width: 100%;
 }
 
@@ -185,6 +183,7 @@ footer {
     justify-content: center;
 	align-items: center;
 }
+
 footer span {
 	font-family: 'Galada', cursive;
 	text-transform: lowercase;
@@ -215,7 +214,7 @@ footer span {
    		border-left: 1px solid #eee;
    		border-right: 1px solid #eee;
 	}
-
+}
 
 
 /*--------Desktop--------*/
@@ -269,12 +268,21 @@ footer span {
 		font-size: 1em;
 	}
 
-	.section-two h3,
+	.section-two h3 {
+		padding: 0.625em 3.875em;
+		font-size: 1em;
+	}
+
 	.section-three h3 {
 		padding: 0.625em 1.875em;
 		font-size: 1em;
 	}
-	.reviews,
+	
+	.section-two{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
 	.address {
 		padding: 0.625em 1.875em;
 	}
